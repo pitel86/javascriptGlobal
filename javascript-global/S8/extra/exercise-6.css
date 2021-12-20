@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+.characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:20px 0;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.characters div{
+    background-image: url('./public/images/card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 330px;
+    height: 450px;
+    margin: 10px;
+}
+
+.characters div .divImg {
+    width: 280px;
+    height: 250px;
+    background-image: none;
+    margin: 30px auto 20px;
+}
+
+.characters div img{
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 73%;
+    /* width: 33%; */
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.battle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:20px 0;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.battle div{
+    background-image: url('./public/images/card.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 330px;
+    height: 450px;
+    margin: 10px;
+}
+
+.battle div .divImg {
+    width: 280px;
+    height: 250px;
+    background-image: none;
+    margin: 30px auto 20px;
+}
+
+.battle div img{
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 73%;
+    /* width: 33%; */
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.turns {
+    padding: 20px;
+}
+
+.winner {
+    padding: 20px;
+    text-align: center;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+h4{
+    margin-top:30px;
+}
+
+p {
+    margin: 5px 0;
+}
