@@ -16,7 +16,7 @@ function hitDiv(myDiv$$) {
         hittedDigg = true;
         myScore$$.innerHTML = Number(myScore$$.textContent) + 1;
     }
-}
+}  
 
 function randomPosition() {
     hittedDigg = false;
