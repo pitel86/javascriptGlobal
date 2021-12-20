@@ -1,0 +1,45 @@
+.gameboard{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.question{
+    padding: 10px;
+    background-color: #eeeeee;
+    margin: 20px 10px;
+    border: 3px solid #444444;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.question p{
+    background-color: #444444;
+    color: #eeeeee;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.question p.check{
+    background-color: #333070;
+}
+
+.question p.true{
+    background-color: #115500;
+}
+
+.question p.false{
+    background-color: #dd1111;
+}
+
+.question h4{
+    min-height: 75px;
+}
+
+
+body {
+    font-size: 1.3em;
+}
