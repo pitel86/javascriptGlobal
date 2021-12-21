@@ -1,0 +1,18 @@
+.pedidos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:20px 0;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.pedidos div{
+    width: 330px;
+    height: 200px;
+    margin: 10px;
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
